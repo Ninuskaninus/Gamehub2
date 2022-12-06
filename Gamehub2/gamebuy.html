@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GameHub – The universe of games</title>
+        <meta name="description" content="The home page to my first ever website." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/51e0e590da.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="index.html"><img src="/images/GameHub_Logo_smaller.png" alt=""></a>
+                    <a href="games.html">Games</a>
+                    <a href="about.html">About</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="sellgame.html">Sell</a>
+                </ul>
+            </div>
+        </nav>
+        <nav role="navigation">
+            <div class="menuMain">
+                <a href="index.html"><img class="image" src="/images/GameHub_Logo_smaller.png" alt=""></a>
+                <div class="list">
+                    <a href="games.html">Games</a>
+                    <a href="about.html">About</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="profile.html">Profile</a>
+                </div>
+               <a class="button" href="sellgame.html">Sell a game!</a>
+            </div>
+        </nav>
+        <main>
+            <section class="container">
+                <div class="buy-grid">
+                    <div class="grid-buy-left">
+                        <img class="image5" src="/images/GameHub_covers10.jpeg" alt="forgelegend">
+                        <h2>About the game</h2>
+                        <p class="text-flow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    </div>
+                    <div class="grid-buy">
+                        <form action="checkbox">
+                            <input type="checkbox"><label for="pc">Pc</label></input>
+                            <input type="checkbox"><label for="xbox">xbox</label></input>
+                            <input type="checkbox"><label for="PS5">PS5</label></input>
+                        </form>
+                        <h1>300,-</h1>
+                        <form class="payment" action="pay">
+                            <label for="name">Cardholder name</label>
+                            <input type="text">
+                            <label for="card-number">Card number</label>
+                            <input type="text" name="" id="">
+                            <div class="buy-split">
+                                <label for="expiration">Expiration date</label>
+                                <label for="cvc">CVC</label>
+                                <input type="text" name="expiration" id="expiration">
+                                <input type="text" name="cvc">
+                            </div>
+                            <label for="email">Email</label>
+                            <input type="text">
+                        </form>
+                        <div class="buy-bottom">
+                        <a class="button2" href="index.html">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
